@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+body {
+    font-family: lato;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+}
+
+.active{
+    color: #e71800;
+}
+
+.conatainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px
+}
